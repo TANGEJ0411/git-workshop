@@ -1,3 +1,4 @@
 這是新功能
-git commit -am
+git commit -am"輸入訊息"
 git add . , git commit
+git commit --amend -m"輸入訊息"更改上一個commit訊息
