@@ -10,3 +10,5 @@ git restore --staged <file>
 git restore a.txt
 git rm aaa 直接從硬碟和git刪除檔案
 git rm --cached azx 從stage裡暫時刪除檔案
+
+register OK
