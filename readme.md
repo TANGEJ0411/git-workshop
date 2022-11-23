@@ -18,3 +18,16 @@ arr.concat(arr2);
 ## git的問題
 ![git的問題](./git-question.png)
 可以clone或是pull下來，但是只要要push上去就會需要輸入username和password我嘗試了username輸入我的信箱和github帳號，密碼輸入設定金鑰時的密碼和github的密碼都無法成功
+---
+## git問題更新
+目前把config裡的remote改成以下就不需要輸入username和password了，就有成功push了
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = @github.com/TANGEJ0411/git-workshop
+	fetch = +refs/heads/*:refs/remotes/origin/*
